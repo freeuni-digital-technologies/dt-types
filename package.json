@@ -1,6 +1,6 @@
 {
   "name": "dt-types",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "types dt modules",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,6 +10,10 @@
     "coverage": "nyc yarn test && rm -r .nyc_output",
     "build": "tsc"
   },
+  "files": [
+    "src",
+    "lib"
+  ],
   "repository": "github.com/freeuni-digital-technologies/dt-types",
   "author": "iarigby <marvinzem@gmail.com>",
   "license": "MIT",
